@@ -11,6 +11,7 @@ for i in x:
     for j in set(a):
         if j in b:
             s += string.ascii_letters.index(j) + 1
+
 print(s)
 
 # Part 2
