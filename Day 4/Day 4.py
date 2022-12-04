@@ -25,7 +25,7 @@ for i in c:
     q, w = map(int, b.split("-"))
     r1 = set(range(s, e + 1))
     r2 = set(range(q, w + 1))
-    if r1.intersection(r2) or r2.intersection(r1):
+    if r1.intersection(r2):
         x += 1
 
 print(x)
