@@ -5,6 +5,7 @@ lines = c[0].split("\n")
 sizes = dict()
 cur = []
 
+# Part 1
 for line in lines:
     cmds = line.split()
 
@@ -25,7 +26,6 @@ for line in lines:
 print(sum(i for i in sizes.values() if i < 100000))
 
 # Part 2
-
 to_free = 7e7 - sizes["/"]
 
 for size in sorted(sizes.values()):
