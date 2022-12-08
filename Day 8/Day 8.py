@@ -1,5 +1,5 @@
-with open('data.txt', 'r') as right:
-    trees = right.read().strip().split("\n")
+with open('data.txt', 'r') as f:
+    trees = f.read().strip().split("\n")
 
 # Part 1
 visible = 0
