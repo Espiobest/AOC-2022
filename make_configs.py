@@ -1,4 +1,5 @@
 import os
+
 for i in range(1, 26):
     if f"Day {i}" not in os.listdir():
         os.mkdir(f"Day {i}")
